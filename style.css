@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+}
+
+.main-container{
+  width: 100%;
+  display: inline-block;
+}
+
+.main-content{
+  display: block;
+  margin: 5vw auto 0;
+  width: 60vw;
+  height: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: green;
+}
+
+.main-iframe{
+  width: calc(100% - 10vw);
+  height: calc(100% - 10vw);
+  margin: 0 5vw;
+  border: none;
+}
